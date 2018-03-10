@@ -5,11 +5,10 @@ This program performs taint analysis over simple C programs, with strict require
 
 ## Dependencies
 
-This project compiles for macOS High Sierra 10.13.3.
-Dependencies:
-    -   LLVM and Clang installed as specified by the instruction from the website.
-    -   Xcode command line tool is properly installed.
-    -   gcc and g++ exists and is referenced from Xcode's developer tools.
+* This project compiles for macOS High Sierra 10.13.3.
+* LLVM and Clang installed as specified by the instruction from the website.
+* Xcode command line tool is properly installed.
+* gcc and g++ exists and is referenced from Xcode's developer tools.
 
 ## Build and Run
 
@@ -22,7 +21,7 @@ The files currently there are
 ```
 example1.c
 example2.c
-example3.c.
+example3.c
 ```
 
 You can build this project by running
@@ -64,6 +63,6 @@ Compiled binary is in
 bin/
 ```
 
-## Autho
+## Author
 
 * **Teekayu Klongtruajrok**
