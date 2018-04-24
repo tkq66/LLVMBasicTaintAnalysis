@@ -9,6 +9,7 @@ This program performs taint analysis over simple C programs, with strict require
 * LLVM and Clang installed as specified by the instruction from the website.
 * Xcode command line tool is properly installed.
 * gcc and g++ exists and is referenced from Xcode's developer tools.
+* clang++ version 7.0.0
 
 ## Build and Run
 
